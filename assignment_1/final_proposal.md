@@ -9,14 +9,14 @@
 <!-- My project consists in mapping isolated hamlets of Chile, forgotten by the common imaginary of what Chile is.  -->
 According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 inhabitants aproximately), a considerable population that is usually postponed by the public services and development. Many of these hamlets correspond to peasant and indigenous communities that have lived for years in the same land. 
 
-As an attempt to address and reveal this reality, the project aims to map small communities located in isolated areas on the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
+As an attempt to address and reveal this reality, the project aims to map small communities located in isolated areas on the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, and health and educational infrastructure.
 
 This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
 
 ## Discussion
 <!-- a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.; -->
-Chile has experienced its biggest [social revolt](https://www.theguardian.com/world/2019/oct/21/chile-braces-after-worst-unrest-in-three-decades-claims-11-lives) in the last 30 years, after the dictatorship transitioned into an agreed democracy. Slogans as *Chile woke up*, *It was so hard for us to meet, that we won't let us go again* or *Never again without us* have been helded since October 2019 as the motto to change one of the most liberal and [concentrated](https://www.latercera.com/pulso/noticia/chile-uno-los-paises-la-region-donde-mas-cayo-la-pobreza-2012-2017/485579/) economies of the region, where 1% of the population owns 26% of the GDP. 
+Chile has experienced its biggest [social revolt](https://www.theguardian.com/world/2019/oct/21/chile-braces-after-worst-unrest-in-three-decades-claims-11-lives) in the last 30 years, after the dictatorship transitioned into an agreed democracy. Slogans as "Chile woke up", "It was so hard for us to meet, that we won't let us go again" or "Never again without us" have been helded since October 2019 as the motto to change one of the most liberal and [concentrated](https://www.latercera.com/pulso/noticia/chile-uno-los-paises-la-region-donde-mas-cayo-la-pobreza-2012-2017/485579/) economies of the region, where 1% of the population owns 26% of the GDP. 
 
 Chile is also a concentrated country, in terms of demography and decision making: 1/3 of the population lives in Santiago, the capital, city which also hosts all governamental headquarters. Now Chile changed and chileans decided to recover it for themselves. But what Chile and what chileans?
 
