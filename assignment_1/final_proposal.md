@@ -7,7 +7,7 @@
 ## Description
 <!-- a topic description, thematic overview, problem statement, or research question; -->
 <!-- My project consists in mapping isolated hamlets of Chile, forgotten by the common imaginary of what Chile is.  -->
-According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 inhabitants aproximately), a considerable population that gets generally postponed by the public services and development. Many of these hamlets correspond to peasant and indigenous communities that have lived for years in the same land. 
+According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 inhabitants aproximately), a considerable population that is usually postponed by the public services and development. Many of these hamlets correspond to peasant and indigenous communities that have lived for years in the same land. 
 
 As an attempt to address and reveal this reality, this project aims to map small farms located in isolated areas in the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
 
