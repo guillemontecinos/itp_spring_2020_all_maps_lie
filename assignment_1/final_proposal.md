@@ -32,7 +32,7 @@ Even though the aforementioned, important and interesting questions pop up with 
 ## Geographic area
 Because of the definition of the project, the potential area to be covered can involve the whole non-urban surface of Chile. Now, since the country's surface reaches 756,102.4 km^2, it will be reduced only to the three northern regions of the country: Arica y Parinaconta, Tarapacá and Antofagasta. In terms of mapping area, it covers Chile's land territorY between 69.47º and 70.65º latitude south.
 
+## References
 <!-- a tentative bibliography of at least seven sources (some scholarly publications, some popular publications, some precedent maps, etc.) that will likely prove useful in your research and practice. -->
-## Reference
 * [Census 2017 - Results Summary](http://www.censo2017.cl/descargas/home/sintesis-de-resultados-censo2017.pdf)
 * [Chilean hamlets – Database (outdated)](https://drive.google.com/file/d/1NBS1wsVqO_awYHRKNHnDbRZNrnGvEswZ/view?usp=sharing)
