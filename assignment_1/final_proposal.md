@@ -6,7 +6,7 @@ My project consists in mapping isolated households of Chile, forgotten by the co
 
 In this project I attempt to map small households located in isolated areas in the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
 
-This project is inspired on my Master's degree [research](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015.
+This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
 a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.;
 
