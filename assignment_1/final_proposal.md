@@ -4,8 +4,8 @@
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assignment_1/screenshots/screenshot-017.png" align="middle" width="80%">
 </p>
 
-<!-- a topic description, thematic overview, problem statement, or research question; -->
 ## Description
+<!-- a topic description, thematic overview, problem statement, or research question; -->
 <!-- My project consists in mapping isolated households of Chile, forgotten by the common imaginary of what Chile is.  -->
 According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 persons aproximately), a considerable population that gets generally postponed by the public services and development. Many of these households correspond to peasant and indigenous communities that have lived for years in the same land. 
 
@@ -13,11 +13,15 @@ As an attempt to address and reveal this reality, this project aims to map small
 
 This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
-<!-- a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.; -->
+
 ## Discussion
+<!-- a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.; -->
+Chile has experienced its biggest [social revolt](https://www.theguardian.com/world/2019/oct/21/chile-braces-after-worst-unrest-in-three-decades-claims-11-lives) in the last 30 years, after the dictatorship transitioned into an agreed democracy. Slogans as *Chile woke up*, *It was so hard for us to meet, that we won't let us go again* or *Never again without us* have been helded since October 2019 as the motto to change one of the most liberal and [concentrated](https://www.latercera.com/pulso/noticia/chile-uno-los-paises-la-region-donde-mas-cayo-la-pobreza-2012-2017/485579/) economies of the region, where 1% of the population owns 26% of the GDP. Chile changed and chileans decided to recover it for themselves. But what chileans?
+
+In Chile, 
 
 
-a preliminary discussion of how your topic might lend itself to spatial/cartographic investigation (i.e., what can you learn by mapping it?);
+<!-- a preliminary discussion of how your topic might lend itself to spatial/cartographic investigation (i.e., what can you learn by mapping it?); -->
 
 
 <!-- a description of the geographic area(s) and scale(s) you plan to focus on in your maps; and -->
