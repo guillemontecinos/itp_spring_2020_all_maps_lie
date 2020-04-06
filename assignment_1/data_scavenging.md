@@ -14,12 +14,12 @@ Note: This mapping was developed on April 6th, 2020, and covered areas of the no
 * Name (if labeled): Guallancani
 * [Link](https://www.google.com/maps/@-17.7114799,-69.4515496,530m/data=!3m1!1e3)
 * [Screenshot](https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assignment_1/screenshots/screenshot-002.png)
+* Date: 4/6/2020
+* Notes: 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assignment_1/screenshots/screenshot-002.png" align="middle" width="80%">
 </p>
 
-* Date: 4/6/2020
-* Notes: 
 ## 3
 * Name (if labeled): Guallancani
 * [Link](https://www.google.com/maps/@-17.7071579,-69.4517061,548m/data=!3m1!1e3)
