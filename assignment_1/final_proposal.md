@@ -6,19 +6,21 @@
 
 ## Description
 <!-- a topic description, thematic overview, problem statement, or research question; -->
-<!-- My project consists in mapping isolated households of Chile, forgotten by the common imaginary of what Chile is.  -->
-According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 persons aproximately), a considerable population that gets generally postponed by the public services and development. Many of these households correspond to peasant and indigenous communities that have lived for years in the same land. 
+<!-- My project consists in mapping isolated hamlets of Chile, forgotten by the common imaginary of what Chile is.  -->
+According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 persons aproximately), a considerable population that gets generally postponed by the public services and development. Many of these hamlets correspond to peasant and indigenous communities that have lived for years in the same land. 
 
-As an attempt to address and reveal this reality, this project aims to map small households located in isolated areas in the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
+As an attempt to address and reveal this reality, this project aims to map small farms located in isolated areas in the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
 
 This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
 
 ## Discussion
 <!-- a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.; -->
-Chile has experienced its biggest [social revolt](https://www.theguardian.com/world/2019/oct/21/chile-braces-after-worst-unrest-in-three-decades-claims-11-lives) in the last 30 years, after the dictatorship transitioned into an agreed democracy. Slogans as *Chile woke up*, *It was so hard for us to meet, that we won't let us go again* or *Never again without us* have been helded since October 2019 as the motto to change one of the most liberal and [concentrated](https://www.latercera.com/pulso/noticia/chile-uno-los-paises-la-region-donde-mas-cayo-la-pobreza-2012-2017/485579/) economies of the region, where 1% of the population owns 26% of the GDP. Chile changed and chileans decided to recover it for themselves. But what chileans?
+Chile has experienced its biggest [social revolt](https://www.theguardian.com/world/2019/oct/21/chile-braces-after-worst-unrest-in-three-decades-claims-11-lives) in the last 30 years, after the dictatorship transitioned into an agreed democracy. Slogans as *Chile woke up*, *It was so hard for us to meet, that we won't let us go again* or *Never again without us* have been helded since October 2019 as the motto to change one of the most liberal and [concentrated](https://www.latercera.com/pulso/noticia/chile-uno-los-paises-la-region-donde-mas-cayo-la-pobreza-2012-2017/485579/) economies of the region, where 1% of the population owns 26% of the GDP. 
 
-In Chile, 
+Chile is also a concentrated country, in terms of demography and decision making: 1/3 of the population lives in Santiago, the capital, city which also hosts all governamental headquarters. Now Chile changed and chileans decided to recover it for themselves. But what Chile and what chileans?
+
+This project attempts to reveal and highlight all those small communities located on isolated rural areas, those hamlets inhabited by no more than 10 people, that have no power at all, whose decision aren't affected by government decisions because they are not even considered by them. Those smalls communities are the aesthetics of a Chile who nobody cares about, even the forces of change that fight for a better future.
 
 
 <!-- a preliminary discussion of how your topic might lend itself to spatial/cartographic investigation (i.e., what can you learn by mapping it?); -->
@@ -31,4 +33,4 @@ Because of the definition of the project, the potential area to be covered can i
 <!-- a tentative bibliography of at least seven sources (some scholarly publications, some popular publications, some precedent maps, etc.) that will likely prove useful in your research and practice. -->
 ## Reference
 * [Census 2017 - Results Summary](http://www.censo2017.cl/descargas/home/sintesis-de-resultados-censo2017.pdf)
-* [Chilean Households – Database (outdated)](https://drive.google.com/file/d/1NBS1wsVqO_awYHRKNHnDbRZNrnGvEswZ/view?usp=sharing)
+* [Chilean hamlets – Database (outdated)](https://drive.google.com/file/d/1NBS1wsVqO_awYHRKNHnDbRZNrnGvEswZ/view?usp=sharing)
