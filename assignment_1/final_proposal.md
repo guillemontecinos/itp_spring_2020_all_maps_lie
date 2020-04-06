@@ -1,4 +1,8 @@
-# Final Project Proposal
+# Final Project Proposal: The Chile nobody cares about
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assignment_1/screenshots/screenshot-017.png" align="middle" width="80%">
+</p>
 
 <!-- a topic description, thematic overview, problem statement, or research question; -->
 ## Description
@@ -8,7 +12,8 @@ In this project I attempt to map small households located in isolated areas in t
 
 This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
-a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.;
+<!-- a discussion of your topic’s personal relevance, larger critical or political significance, timeliness, etc.; -->
+## Discussion
 
 
 a preliminary discussion of how your topic might lend itself to spatial/cartographic investigation (i.e., what can you learn by mapping it?);
