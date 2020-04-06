@@ -20,7 +20,7 @@ Chile has experienced its biggest [social revolt](https://www.theguardian.com/wo
 
 Chile is also concentrated, in terms of demography and decision making: 1/3 of the population live in Santiago, the capital, city which also hosts all governamental headquarters. Now Chile changed and chileans decided to recover it for themselves. But what Chile and what chileans?
 
-This project attempts to reveal and highlight all those small communities located on isolated rural areas, those hamlets inhabited by no more than 10 people, that have no power at all, whose decision aren't affected by government decisions because they are not considered by them, and most of them don't even exist in a map. Those smalls communities are the aesthetics of a Chile who nobody cares about, even the forces of change that fight for a better future.
+This project attempts to reveal and highlight all those small communities located on isolated rural areas, those hamlets inhabited by no more than 10 people, that have no power at all, whose decision aren't affected by government decisions because they are not considered by them, and most of them don't even exist in maps. Those smalls communities are the aesthetics of a Chile who nobody cares about, even the forces of change that fight for a better future.
 
 Even though the aforementioned, important and interesting questions pop up with this project: who are those people? what they do? what they want? do they want to be mapped? and who am I to decide who are mapped or not? Despite this, the gesture of highlting a portion of human population abandoned by the progress seems powerful enough politically speaking.
 
