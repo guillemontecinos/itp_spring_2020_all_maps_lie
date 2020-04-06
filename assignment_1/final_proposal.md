@@ -9,7 +9,7 @@
 <!-- My project consists in mapping isolated households of Chile, forgotten by the common imaginary of what Chile is.  -->
 According to the 2017 census, 12.2% of the chilean population live in rural areas, 2,144,028 persons aproximately, a big population that gets generally postponed by the public services and development. Most of these households correspond to peasant and indigenous communities that have lived for years in the same land.
 
-In this project I attempt to map small households located in isolated areas in the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
+This project attempts to map small households located in isolated areas in the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, health and educational infrastructure.
 
 This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
