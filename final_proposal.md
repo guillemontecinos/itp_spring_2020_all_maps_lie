@@ -30,7 +30,13 @@ Even though the aforementioned, important and interesting questions pop up with 
 
 <!-- a description of the geographic area(s) and scale(s) you plan to focus on in your maps; and -->
 ## Geographic area
-Because of the definition of the project, the potential area to be covered can involve the whole non-urban surface of Chile. Now, since the country's surface reaches 756,102.4 km^2, it will be reduced only to the three northern regions of the country: Arica y Parinaconta, Tarapacá and Antofagasta. In terms of mapping area, it covers Chile's land territorY between 69.47º and 70.65º latitude south.
+The potential area to be covered involves the whole Chilean land territory between 69.47º and 70.65º latitude south, that reaches 756,102.4 km^2 approximately. A [database](#references) that contains all Chilean localities will be used to map as much places as possible. This is an unofficial database I got during my 2015 research from a Government's geographer, that contains around 15,000 georeferenced settlements, both isolated and not. In the following picture it can be seen the database displayed using Kepler.gl.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/pobladoschile-display.png" align="middle" width="80%">
+</p>
+
+This database will be used to scrape screenshots of all the 
 
 ## References
 <!-- a tentative bibliography of at least seven sources (some scholarly publications, some popular publications, some precedent maps, etc.) that will likely prove useful in your research and practice. -->
