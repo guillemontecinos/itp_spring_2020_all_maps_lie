@@ -36,3 +36,5 @@ Because of the definition of the project, the potential area to be covered can i
 <!-- a tentative bibliography of at least seven sources (some scholarly publications, some popular publications, some precedent maps, etc.) that will likely prove useful in your research and practice. -->
 * [Census 2017 - Results Summary](http://www.censo2017.cl/descargas/home/sintesis-de-resultados-censo2017.pdf)
 * [Chilean hamlets – Database (outdated)](https://drive.google.com/file/d/1NBS1wsVqO_awYHRKNHnDbRZNrnGvEswZ/view?usp=sharing)
+* [Infrastructure of Georeferenced Data](http://www.ide.cl/)
+* [Study of Isolated Sttlements 2012, SUBDERE, Chile](http://www.subdere.gov.cl/sites/default/files/documentos/zonas_aisladas2.pdf)
