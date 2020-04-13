@@ -4,6 +4,6 @@
 
 * *Showing mockup*: The atlas will be displayed as a website where aerial imagery of isolated settlements scraped from Google Maps are presented, toghether with a map of the represented geographic zone, where each settlement is located.
 
-* *Showing the dataset*: The atlas will be based on the Chilean Settlements dataset, a database that contains mor than 15,000 georeferenced Chilean settlements, many of which are incorrectly mapped and point uninhabited areas. This database was provided to me by a geographer friend few years ago. I will use this information to scrape screenshots of Google Maps imagery for each of the entries, at a height of 1,000 m. Later, I will be reviewed the dataset and all unihabited points will be cleaned. This resulting dataset will be used to build the atlas.
+* *Showing the dataset*: The atlas will be based on the Chilean Settlements dataset, a database that contains mor than 15,000 georeferenced Chilean settlements, many of which are incorrectly mapped and point uninhabited areas. This database was provided to me by a geographer friend few years ago. I will use this information to scrape images from Google Maps for each of the point, at a height of 1,000 m. Later, I will review the dataset and all unihabited points will be cleaned. This resulting dataset will be used to build the atlas.
 
 A second stage of this project, that I'd love to cover in this class but see unlikely, is to create an open platform where people can map unmapped settlements, adding information about them.
