@@ -28,11 +28,11 @@ Chile is also concentrated, in terms of demography and decision making: 1/3 of t
 
 This project attempts to reveal and highlight all those small communities located on isolated rural areas, those hamlets inhabited by no more than 10 people, that have no power at all, whose decision aren't affected by government decisions because they are not considered by them, and most of them don't even exist in maps. Those smalls communities are the aesthetics of a Chile who nobody cares about, even the forces of change that fight for a better future.
 
-Even though the aforementioned, important and interesting questions pop up with this project: who are those people? what they do? what they want? do they want to be mapped? and who am I to decide who are mapped or not? Despite this, the gesture of highlting a portion of human population abandoned by the progress seems powerful enough politically speaking.
+Even though the aforementioned, important and interesting questions pop up with this project: who are those people? what they do? what they want? do they want to be mapped? and who am I to decide who are mapped or not? Despite this, the gesture of high lightning a portion of human population abandoned by the progress seems powerful enough politically speaking.
 
 ## Methodology
 <!-- a preliminary discussion of how your topic might lend itself to spatial/cartographic investigation (i.e., what can you learn by mapping it?); -->
-The atlas will be based on the data collected from the Chilean Settlements dataset, a [database](#references) that contains all Chilean localities will be used to map as much places as possible. This is an unofficial database I got during my 2015 research from a Government's geographer, that contains around 15,000 georeferenced settlements, both isolated and not.
+The atlas will be based on the Chilean Settlements dataset, a [database](#references) that contains all Chilean localities will be used to map as much places as possible. This is an unofficial database I got during my 2015 research from a Government's geographer, that contains around 15,000 georeferenced settlements, both isolated and not.
 
 Despite bwing an official dataset, many of the 15,000 entries are incorrectly mapped and point uninhabited areas. Acknowledging that most of the times Government agencies work with unrevised data, I will use this information to scrape screenshots of Google Maps imagery for each of the entries, at a height of 1,000 m. Later I will review the data and clean all unihabited points. This resulting dataset will be used to compose the atlas dataset.
 
