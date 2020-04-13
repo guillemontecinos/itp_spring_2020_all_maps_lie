@@ -30,13 +30,18 @@ This project attempts to reveal and highlight all those small communities locate
 
 Even though the aforementioned, important and interesting questions pop up with this project: who are those people? what they do? what they want? do they want to be mapped? and who am I to decide who are mapped or not? Despite this, the gesture of highlting a portion of human population abandoned by the progress seems powerful enough politically speaking.
 
-
+## Methodology
 <!-- a preliminary discussion of how your topic might lend itself to spatial/cartographic investigation (i.e., what can you learn by mapping it?); -->
+The atlas will be based on the data collected from the Chilean Settlements dataset, a [database](#references) that contains all Chilean localities will be used to map as much places as possible. This is an unofficial database I got during my 2015 research from a Government's geographer, that contains around 15,000 georeferenced settlements, both isolated and not.
+
+Despite bwing an official dataset, many of the 15,000 entries are incorrectly mapped and point uninhabited areas. Acknowledging that most of the times Government agencies work with unrevised data, I will use this information to scrape screenshots of Google Maps imagery for each of the entries, at a height of 1,000 m. Later I will review the data and clean all unihabited points. This resulting dataset will be used to compose the atlas dataset.
+
+A second stage of this project, that I'd love to cover in this class but see unlikely, is to create an open platform where people can map unmapped settlements and add them to the dataset. This dialogs with the project [Missing Maps](https://www.missingmaps.org/), that attempts to complete incomplete geographic datasets to be used for public policy and humanitarian organizations.
 
 
 <!-- a description of the geographic area(s) and scale(s) you plan to focus on in your maps; and -->
 ## Geographic area
-The potential area to be covered involves the whole Chilean land territory between 69.47º and 70.65º latitude south, that reaches 756,102.4 km^2 approximately. A [database](#references) that contains all Chilean localities will be used to map as much places as possible. This is an unofficial database I got during my 2015 research from a Government's geographer, that contains around 15,000 georeferenced settlements, both isolated and not. In the following picture it can be seen the database displayed using Kepler.gl.
+The potential area to be covered involves the whole Chilean land territory between 69.47º and 70.65º latitude south, that reaches 756,102.4 km^2 approximately. In the following picture it can be seen the Chilean Settlement database displayed using Kepler.gl.
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/pobladoschile-display.png" align="middle" width="80%">
@@ -52,3 +57,4 @@ This database will be used to scrape screenshots of all the
 * [Study of Isolated Sttlements 2012, SUBDERE, Chile](http://www.subdere.gov.cl/sites/default/files/documentos/zonas_aisladas2.pdf)
 * [A Pocket Atlas of Remote Islands – Judith Schalansky](https://www.theparisreview.org/blog/2016/01/08/fifty-islands-i-have-not-visited/)
 * [OpenAerialMap](https://map.openaerialmap.org/) 
+* [Missing Maps](https://www.missingmaps.org/)
