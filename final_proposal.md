@@ -1,4 +1,4 @@
-# Final Project Proposal: The Chile nobody cares about
+# Final Project Proposal: Atlas of the Forgotten Chile
 
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assignment_1/screenshots/screenshot-017.png" align="middle" width="80%">
@@ -9,7 +9,13 @@
 <!-- My project consists in mapping isolated hamlets of Chile, forgotten by the common imaginary of what Chile is.  -->
 According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 inhabitants aproximately), a considerable population that is usually postponed by the public services and development. Many of these hamlets correspond to peasant and indigenous communities that have lived for years in the same land. 
 
-As an attempt to address and reveal this reality, the project aims to map small communities located in isolated areas on the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, and health and educational infrastructure.
+As an attempt to address and reveal this reality, the project aims be an atlas of forgotten small communities settled in isolated areas on the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, and health and educational infrastructure.
+
+The atlas will be displayed as a website where aerial imagery of isolated settlements scraped from Google Maps are presented, toghether with a map of the represented geographic zone, where each settlement is located.
+
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/web-mockup.png" align="middle" width="80%">
+</p>
 
 This project is inspired on my Master's degree [thesis](https://github.com/guillemontecinos/mcs_thesis/blob/master/Montecinos_MCs_thesis_2015.pdf) I developed in 2015 on off-grid electricity supply for isolated peasant and indigenous communites of Chile.
 
@@ -44,3 +50,5 @@ This database will be used to scrape screenshots of all the
 * [Chilean hamlets – Database (outdated)](https://drive.google.com/file/d/1NBS1wsVqO_awYHRKNHnDbRZNrnGvEswZ/view?usp=sharing)
 * [Infrastructure of Georeferenced Data](http://www.ide.cl/)
 * [Study of Isolated Sttlements 2012, SUBDERE, Chile](http://www.subdere.gov.cl/sites/default/files/documentos/zonas_aisladas2.pdf)
+* [A Pocket Atlas of Remote Islands – Judith Schalansky](https://www.theparisreview.org/blog/2016/01/08/fifty-islands-i-have-not-visited/)
+* [OpenAerialMap](https://map.openaerialmap.org/) 
