@@ -1,0 +1,9 @@
+* *Showing zoom out*: According to the 2017 census, 12.2% of the chilean population live in rural areas (2,144,028 inhabitants aproximately), a considerable population that is usually postponed by the public services and development. Many of these hamlets correspond to peasant and indigenous communities that have lived for years in the same land.
+
+* *Showing screenshots collected*: As an attempt to address and reveal this reality, the project aims be an atlas of forgotten small communities settled in isolated areas on the chilean countryside. The goal of this is to reveal a hidden imagery of Chile, that of the forgotten people that live in the most amazing landscapes, those idealized by urban inhabitants, but lack of basic services as electricity, drinking water or sewage, and health and educational infrastructure.
+
+* *Showing mockup*: The atlas will be displayed as a website where aerial imagery of isolated settlements scraped from Google Maps are presented, toghether with a map of the represented geographic zone, where each settlement is located.
+
+* *Showing the dataset*: The atlas will be based on the Chilean Settlements dataset, a database that contains mor than 15,000 georeferenced Chilean settlements, many of which are incorrectly mapped and point uninhabited areas. This database was provided to me by a geographer friend few years ago. I will use this information to scrape screenshots of Google Maps imagery for each of the entries, at a height of 1,000 m. Later, I will be reviewed the dataset and all unihabited points will be cleaned. This resulting dataset will be used to build the atlas.
+
+A second stage of this project, that I'd love to cover in this class but see unlikely, is to create an open platform where people can map unmapped settlements, adding information about them.
