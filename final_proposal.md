@@ -38,7 +38,6 @@ Despite bwing an official dataset, many of the 15,000 entries are incorrectly ma
 
 A second stage of this project, that I'd love to cover in this class but see unlikely, is to create an open platform where people can map unmapped settlements and add them to the dataset. This dialogs with the project [Missing Maps](https://www.missingmaps.org/), that attempts to complete incomplete geographic datasets to be used for public policy and humanitarian organizations.
 
-
 <!-- a description of the geographic area(s) and scale(s) you plan to focus on in your maps; and -->
 ## Geographic area
 The potential area to be covered involves the whole Chilean land territory between 69.47º and 70.65º latitude south, that reaches 756,102.4 km^2 approximately. In the following picture it can be seen the Chilean Settlement database displayed using Kepler.gl.
@@ -46,8 +45,6 @@ The potential area to be covered involves the whole Chilean land territory betwe
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/pobladoschile-display.png" align="middle" width="80%">
 </p>
-
-This database will be used to scrape screenshots of all the 
 
 ## References
 <!-- a tentative bibliography of at least seven sources (some scholarly publications, some popular publications, some precedent maps, etc.) that will likely prove useful in your research and practice. -->
