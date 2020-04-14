@@ -29,3 +29,10 @@
 * tiles!!!
 * [Anatomy of a web map](http://maptime.io/anatomy-of-a-web-map/#0)
 * Joey provided open data to map
+
+## Week 3
+* Tools:
+    * [DataWrapper.de](https://www.datawrapper.de/)
+    * [leaflet.js](https://leafletjs.com/)
+    * [deck.gl](https://deck.gl/)
+    * [turf.js](https://turfjs.org/)
