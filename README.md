@@ -15,6 +15,7 @@
 ## Week 3
 Rats sightseing in NYC, Spring 2019
 ### [DataWrapper Version](https://datawrapper.dwcdn.net/fQoAh/1/)
+DataWrapper is a great tool to start or get fast and high quality visualizations, but it seems not to be very customizable.
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/assignment3-datawrapper.png" align="middle" width="80%">
 </p>
@@ -23,3 +24,6 @@ Rats sightseing in NYC, Spring 2019
 <p align="center">
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/assignment3-keplergl.png" align="middle" width="80%">
 </p>
+
+
+
