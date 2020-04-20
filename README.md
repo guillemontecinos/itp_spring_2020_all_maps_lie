@@ -25,5 +25,10 @@ DataWrapper is a great tool to start or get fast and high quality visualizations
   <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/assignment3-keplergl.png" align="middle" width="80%">
 </p>
 
+### [Leaflet.js Version]
+<p align="center">
+  <img src="https://github.com/guillemontecinos/itp_spring_2020_all_maps_lie/blob/master/assets/assignment3-leaflet.png" align="middle" width="80%">
+</p>
 
+<div id="map"></div>
 
