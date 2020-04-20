@@ -1,14 +1,16 @@
 // initialize map
-let map = L.map('map').setView([40.7194568,-74.0070207], 13);
+let map = L.map('map').setView([40.7194568,-74.0070207], 11);
 
-// load a tile layer
-L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}',
-{
-attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> — Map data © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-subdomains: 'abcd',
-maxZoom: 20,
-minZoom: 0,
-ext: 'png'
+let mapboxUrl = 'https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.{ext}?access_token={accesToken}'
+let accesToken = 'pk.eyJ1IjoiZ3VpbGxlbW9udGVjaW5vcyIsImEiOiJjanhqOXk1ajUyNG9tM3Rwa2k1NTA5Y3czIn0.empBgsAjclwQah1q9dLjiA'
+
+L.tileLayer(mapboxUrl, {
+    id: 'mapbox.dark',
+    attribution : '',
+    maxZoom: 20,
+    minZoom: 0,
+    ext: 'png',
+    accesToken: accesToken
 }).addTo(map)
 
 $.getJSON('nyc__rat-counts-by-neighborhood__201903-201905.geojson', function(data){
