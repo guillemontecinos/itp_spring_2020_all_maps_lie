@@ -36,3 +36,12 @@
     * [leaflet.js](https://leafletjs.com/)
     * [deck.gl](https://deck.gl/)
     * [turf.js](https://turfjs.org/)
+
+## Week 4
+* [terrapattern](http://www.terrapattern.com/)
+* [radio.garden](http://radio.garden/)
+* [Penny @ Stamen](https://stamen.com/work/penny/)
+* [Hidden Faces](https://geo.hidden-faces.net/beta/)
+* [Roads to Rome – Move-Lab](https://www.move-lab.com/project/roadstorome/)
+* [From point A to point B](https://from-a-to-b.github.io/)
+* [Voronoi Tessellation](https://en.wikipedia.org/wiki/Voronoi_diagram)
