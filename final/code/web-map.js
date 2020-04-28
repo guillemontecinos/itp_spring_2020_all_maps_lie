@@ -5,7 +5,7 @@ let mapboxUrl = 'https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.{ext}?access_token={
 let accesToken = 'pk.eyJ1IjoiZ3VpbGxlbW9udGVjaW5vcyIsImEiOiJjanhqOXk1ajUyNG9tM3Rwa2k1NTA5Y3czIn0.empBgsAjclwQah1q9dLjiA'
 
 L.tileLayer(mapboxUrl, {
-    id: 'mapbox.satellite',
+    id: 'mapbox.light',
     attribution : '',
     maxZoom: 20,
     minZoom: 0,

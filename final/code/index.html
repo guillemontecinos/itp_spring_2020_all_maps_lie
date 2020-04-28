@@ -3,15 +3,28 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
         <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-        <style>
-            #map{ 
-                height: 100%;
-                width: 33%;
-                }
-        </style>
+        <link rel="stylesheet" href="./public/styles/styles.css" />
     </head>
     <body>
-        <div id="map"></div>
+        <div class="container">
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            <div class="page-container">
+                <section id="locations">
+                    <ul>
+                        <li><img src="./public/images/15_Jai-a.png"></li>
+                        <li><img src="./public/images/16_Illalla.png"></li>
+                        <li><img src="./public/images/17_Chiapa.png"></li>
+                        <li><img src="./public/images/18_Sotoca.png"></li>
+                        <li><img src="./public/images/19_Achuma.png"></li>
+                        <li><img src="./public/images/20_Cuilco.png"></li>
+                        <li><img src="./public/images/22_Timalchaca.png"></li>
+                        <li><img src="./public/images/24_Chucasi-a.png"></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
         <script src="web-map.js"></script>
     </body>
 </html>

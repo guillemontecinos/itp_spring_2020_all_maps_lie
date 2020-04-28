@@ -32,3 +32,6 @@ DataWrapper is a great tool to start or get fast and high quality visualizations
 
 <div id="map"></div>
 
+## Week 4
+During week 4 I worked on my final project, specifically in two parts of it: scraping images from the database and mapping them. 
+
