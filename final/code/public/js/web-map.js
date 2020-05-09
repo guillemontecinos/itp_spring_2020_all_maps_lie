@@ -106,20 +106,20 @@ function loadImage(obj){
 // TODO: remove when json fetch is automated
 let localities = [
     {id: 15, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 16, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 17, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 18, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 19, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 20, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 22, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 24, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
+    {id: 16, name: '16_Illalla', imgsrc: './public/images/16_Illalla.png', lat: '0.00000', lon: '0.00000'},
+    {id: 17, name: '17_Chiapa', imgsrc: './public/images/17_Chiapa.png', lat: '0.00000', lon: '0.00000'},
+    {id: 18, name: '18_Sotoca', imgsrc: './public/images/18_Sotoca.png', lat: '0.00000', lon: '0.00000'},
+    {id: 19, name: '19_Achuma', imgsrc: './public/images/19_Achuma.png', lat: '0.00000', lon: '0.00000'},
+    {id: 20, name: '20_Cuilco', imgsrc: './public/images/20_Cuilco.png', lat: '0.00000', lon: '0.00000'},
+    {id: 22, name: '22_Timalchaca', imgsrc: './public/images/22_Timalchaca.png', lat: '0.00000', lon: '0.00000'},
+    {id: 24, name: '24_Chucasi-a', imgsrc: './public/images/24_Chucasi-a.png', lat: '0.00000', lon: '0.00000'},
     {id: 15, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 16, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 17, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 18, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 19, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 20, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 22, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 24, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'}
+    {id: 16, name: '16_Illalla', imgsrc: './public/images/16_Illalla.png', lat: '0.00000', lon: '0.00000'},
+    {id: 17, name: '17_Chiapa', imgsrc: './public/images/17_Chiapa.png', lat: '0.00000', lon: '0.00000'},
+    {id: 18, name: '18_Sotoca', imgsrc: './public/images/18_Sotoca.png', lat: '0.00000', lon: '0.00000'},
+    {id: 19, name: '19_Achuma', imgsrc: './public/images/19_Achuma.png', lat: '0.00000', lon: '0.00000'},
+    {id: 20, name: '20_Cuilco', imgsrc: './public/images/20_Cuilco.png', lat: '0.00000', lon: '0.00000'},
+    {id: 22, name: '22_Timalchaca', imgsrc: './public/images/22_Timalchaca.png', lat: '0.00000', lon: '0.00000'},
+    {id: 24, name: '24_Chucasi-a', imgsrc: './public/images/24_Chucasi-a.png', lat: '0.00000', lon: '0.00000'}
 ]
 
