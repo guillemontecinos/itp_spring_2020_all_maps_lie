@@ -20,7 +20,8 @@ fs.createReadStream('PobladosChile.csv')
             deviceScaleFactor: 1
         })
         // TODO: avoid captcha (it banned me after 64 tries)
-        for(let i = 1222; i < input.data.length; i++){
+        // for(let i = 765; i < input.data.length; i++){
+        for(let i = 765; i < 1094; i++){
             if(input.data[i].COD_REG == '01'){
                 let lat = input.data[i].point_latitude
                 let lon = input.data[i].point_longitude

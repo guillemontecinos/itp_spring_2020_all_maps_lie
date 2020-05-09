@@ -1,9 +1,6 @@
 // Atlas of the forgotten Chile - All maps lie Final – Spring 2020
 // This program sets a map and loads the images on the webpage. 
 
-
-// TODO: use the json uploaded on web-map.js
-
 // initialize map
 let map = L.map('map').setView([-19.319975, -69.534918], 8);
 
@@ -37,10 +34,13 @@ let geojsonMarkerOptionsHover = {
     fillOpacity: 0.8
 }
 
+let json
+
 // Dictionary that converts ids from the PobladosChile database into map object ids
 let dict = {} 
 
-$.getJSON('pobladoschile-aricaiqq-300.geojson', function(data){
+$.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
+    json = data
     L.geoJson(data, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptions);
@@ -55,8 +55,8 @@ $.getJSON('pobladoschile-aricaiqq-300.geojson', function(data){
     }
 
     // fulfills the gallery grid
-    for(let i = 0; i < localities.length; i++){
-        loadImage(localities[i])
+    for(let i = 0; i < data.features.length; i++){
+        loadImage(data.features[i])
     }
     
     $('div').hover(
@@ -64,7 +64,7 @@ $.getJSON('pobladoschile-aricaiqq-300.geojson', function(data){
             let hoverId = $(this).attr('id')
             if(hoverId != undefined && hoverId != 'map') {
                 // modifies dot's style in the map on hover in
-                console.log('highlight map element id: ' + dict[hoverId])
+                // console.log('highlight map element id: ' + dict[hoverId])
                 map._layers[dict[hoverId]].bringToFront()
                 map._layers[dict[hoverId]].setStyle(geojsonMarkerOptionsHover)
             }            
@@ -73,7 +73,6 @@ $.getJSON('pobladoschile-aricaiqq-300.geojson', function(data){
             let hoverId = $(this).attr('id')
             if(hoverId != undefined && hoverId != 'map') {
                 // restitutes dot's style in the map on hover out
-                console.log('highlight map element id: ' + dict[hoverId])
                 map._layers[dict[hoverId]].setStyle(geojsonMarkerOptions)
             }            
         }, 
@@ -88,38 +87,17 @@ function loadImage(obj){
     let image = document.createElement('div')
     image.className = 'image'
     let imageContent = document.createElement('img')
-    imageContent.src = obj.imgsrc
+    imageContent.src = './public/images/' + obj.properties.id + '_' + obj.properties.name + '.png.jpg'
 
     let text = document.createElement('div')
     text.className = 'text'
-    text.innerText = obj.name + '\n' + obj.lat + ', ' + obj.lon
+    text.innerText = obj.properties.name + '\n' + obj.geometry.coordinates[1] + ', ' + obj.geometry.coordinates[0]
 
     image.appendChild(imageContent)
     galleryItem.appendChild(image)
     galleryItem.appendChild(text)
-    galleryItem.id = obj.id
+    galleryItem.id = Number(obj.properties.id)
     galleryCont.appendChild(galleryItem)
 
     $('.grid-container').append(galleryCont)
 }
-
-// TODO: remove when json fetch is automated
-let localities = [
-    {id: 15, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 16, name: '16_Illalla', imgsrc: './public/images/16_Illalla.png', lat: '0.00000', lon: '0.00000'},
-    {id: 17, name: '17_Chiapa', imgsrc: './public/images/17_Chiapa.png', lat: '0.00000', lon: '0.00000'},
-    {id: 18, name: '18_Sotoca', imgsrc: './public/images/18_Sotoca.png', lat: '0.00000', lon: '0.00000'},
-    {id: 19, name: '19_Achuma', imgsrc: './public/images/19_Achuma.png', lat: '0.00000', lon: '0.00000'},
-    {id: 20, name: '20_Cuilco', imgsrc: './public/images/20_Cuilco.png', lat: '0.00000', lon: '0.00000'},
-    {id: 22, name: '22_Timalchaca', imgsrc: './public/images/22_Timalchaca.png', lat: '0.00000', lon: '0.00000'},
-    {id: 24, name: '24_Chucasi-a', imgsrc: './public/images/24_Chucasi-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 15, name: '15_Jai-a', imgsrc: './public/images/15_Jai-a.png', lat: '0.00000', lon: '0.00000'},
-    {id: 16, name: '16_Illalla', imgsrc: './public/images/16_Illalla.png', lat: '0.00000', lon: '0.00000'},
-    {id: 17, name: '17_Chiapa', imgsrc: './public/images/17_Chiapa.png', lat: '0.00000', lon: '0.00000'},
-    {id: 18, name: '18_Sotoca', imgsrc: './public/images/18_Sotoca.png', lat: '0.00000', lon: '0.00000'},
-    {id: 19, name: '19_Achuma', imgsrc: './public/images/19_Achuma.png', lat: '0.00000', lon: '0.00000'},
-    {id: 20, name: '20_Cuilco', imgsrc: './public/images/20_Cuilco.png', lat: '0.00000', lon: '0.00000'},
-    {id: 22, name: '22_Timalchaca', imgsrc: './public/images/22_Timalchaca.png', lat: '0.00000', lon: '0.00000'},
-    {id: 24, name: '24_Chucasi-a', imgsrc: './public/images/24_Chucasi-a.png', lat: '0.00000', lon: '0.00000'}
-]
-
