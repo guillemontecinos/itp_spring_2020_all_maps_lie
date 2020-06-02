@@ -9,6 +9,10 @@ let accesToken = 'pk.eyJ1IjoiZ3VpbGxlbW9udGVjaW5vcyIsImEiOiJjanhqOXk1ajUyNG9tM3R
 
 L.tileLayer(mapboxUrl, {
     id: 'mapbox.light',
+    // id: 'mapbox.dark',
+    // id: 'mapbox.streets',
+    // id: 'mapbox.outdoors',
+    // id: 'mapbox.satellite',
     attribution : '',
     maxZoom: 20,
     minZoom: 0,
@@ -17,30 +21,30 @@ L.tileLayer(mapboxUrl, {
 }).addTo(map)
 
 let geojsonMarkerOptions = {
-    radius: 5,
-    fillColor: "#000000",
-    color: "#000",
+    radius: 4,
+    fillColor: "#515651",
+    color: "#515651",
     weight: 1,
-    opacity: .8,
-    fillOpacity: 0.8
+    opacity: 0,
+    fillOpacity: 1
 }
 
 let geojsonMarkerOptionsHover = {
-    radius: 5,
-    fillColor: "#ed0e0e",
-    color: "#ed0e0e",
+    radius: 8,
+    fillColor: "#e02f49",
+    color: "#e02f49",
     weight: 1,
-    opacity: .8,
-    fillOpacity: 0.8
+    opacity: .9,
+    fillOpacity: 0.9
 }
 
-let json
+// let json
 
 // Dictionary that converts ids from the PobladosChile database into map object ids
 let dict = {} 
 
 $.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
-    json = data
+    // json = data
     L.geoJson(data, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptions);
@@ -91,13 +95,61 @@ function loadImage(obj){
 
     let text = document.createElement('div')
     text.className = 'text'
-    text.innerText = obj.properties.name + '\n' + obj.geometry.coordinates[1] + ', ' + obj.geometry.coordinates[0]
+    let textContent = document.createElement('p')
+    textContent.className = 'text-content'
+    let townName = document.createElement('span')
+    townName.className = 'town-name'
+    let townLocation = document.createElement('span')
+    townLocation.className = 'town-location'
+
+    townName.innerText= obj.properties.name + '\n'
+    townLocation.innerText = obj.geometry.coordinates[1] + ', ' + obj.geometry.coordinates[0]
+
+    // text.innerText = obj.properties.name + '\n' + obj.geometry.coordinates[1] + ', ' + obj.geometry.coordinates[0]
 
     image.appendChild(imageContent)
     galleryItem.appendChild(image)
+
+    textContent.appendChild(townName)
+    textContent.appendChild(townLocation)
+    text.appendChild(textContent)
+
     galleryItem.appendChild(text)
     galleryItem.id = Number(obj.properties.id)
     galleryCont.appendChild(galleryItem)
 
     $('.grid-container').append(galleryCont)
+}
+
+// about popup interaction
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+
+openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        // console.log(button.dataset.modalTarget)
+        openModal(modal)
+    })
+})
+
+closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal(modal)
+    })
+})
+
+function openModal(modal){
+    if (modal == null) return
+    // console.log('open button clicked')
+    modal.classList.add('active')
+    overlay.classList.add('active')
+}
+
+function closeModal(modal){
+    if (modal == null) return
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
 }
