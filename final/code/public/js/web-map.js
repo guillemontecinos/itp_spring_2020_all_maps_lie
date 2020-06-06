@@ -58,7 +58,10 @@ $.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
         }
     }
 
-    // fulfills the gallery grid
+    // Create the gallery grid from north to south
+    data.features.sort(function(a,b){
+        return b.geometry.coordinates[1] - a.geometry.coordinates[1]
+    })
     for(let i = 0; i < data.features.length; i++){
         loadImage(data.features[i])
     }
@@ -153,3 +156,10 @@ function closeModal(modal){
     modal.classList.remove('active')
     overlay.classList.remove('active')
 }
+
+// TODO: set an event when clicking a point in the map, get the id associated to it and call the following code
+// this code scrolls to an element based on its id
+// let idstr = '#500'
+// $('.page-container').animate({
+//     scrollTop: $(idstr).offset().top
+// }, 1000)
