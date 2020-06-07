@@ -47,10 +47,30 @@ $.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
     // json = data
     L.geoJson(data, {
         pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, geojsonMarkerOptions);
+            // creates the markers for each settlement and adds an onClick event that fires scroll animation in jquery
+            let marker = L.circleMarker(latlng, geojsonMarkerOptions)
+            marker.on('click', function(e){
+                // scrolls to the clicked element settlement. TODO: fix destination
+                let idstr = '#' + e.sourceTarget.feature.properties.id
+                $('.page-container').animate({
+                    scrollTop: $(idstr).offset().top
+                }, 800)
+                // TODO: add a function that replicates hover animation
+            })
+            marker.on('mouseover', function(e){
+                // console.log(e.sourceTarget._leaflet_id)
+                let id = e.sourceTarget._leaflet_id
+                map._layers[id].bringToFront()
+                map._layers[id].setStyle(geojsonMarkerOptionsHover)
+            })
+            marker.on('mouseout', function(e){
+                map._layers[e.sourceTarget._leaflet_id].setStyle(geojsonMarkerOptions)
+            })
+            return marker
         }
     }).addTo(map)
 
+    // populates dict with leaflet ids
     for(let key in map._layers){
         if(map._layers[key].feature != undefined){
             let id = map._layers[key].feature.properties.id
@@ -71,7 +91,6 @@ $.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
             let hoverId = $(this).attr('id')
             if(hoverId != undefined && hoverId != 'map') {
                 // modifies dot's style in the map on hover in
-                // console.log('highlight map element id: ' + dict[hoverId])
                 map._layers[dict[hoverId]].bringToFront()
                 map._layers[dict[hoverId]].setStyle(geojsonMarkerOptionsHover)
             }            
@@ -124,7 +143,7 @@ function loadImage(obj){
     $('.grid-container').append(galleryCont)
 }
 
-// about popup interaction
+// 'About' Popup layout and interaction
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
@@ -156,10 +175,3 @@ function closeModal(modal){
     modal.classList.remove('active')
     overlay.classList.remove('active')
 }
-
-// TODO: set an event when clicking a point in the map, get the id associated to it and call the following code
-// this code scrolls to an element based on its id
-// let idstr = '#500'
-// $('.page-container').animate({
-//     scrollTop: $(idstr).offset().top
-// }, 1000)
