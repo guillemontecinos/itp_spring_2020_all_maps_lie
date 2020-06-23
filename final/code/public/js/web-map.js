@@ -49,23 +49,8 @@ $.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
         pointToLayer: function (feature, latlng) {
             // creates the markers for each settlement and adds an onClick event that fires scroll animation in jquery
             let marker = L.circleMarker(latlng, geojsonMarkerOptions)
-            marker.on('click', function(e){
-                // scrolls to the clicked element settlement. TODO: fix destination
-                let idstr = '#' + e.sourceTarget.feature.properties.id
-                $('.page-container').animate({
-                    scrollTop: $(idstr).offset().top
-                }, 800)
-                // TODO: add a function that replicates hover animation
-            })
-            marker.on('mouseover', function(e){
-                // console.log(e.sourceTarget._leaflet_id)
-                let id = e.sourceTarget._leaflet_id
-                map._layers[id].bringToFront()
-                map._layers[id].setStyle(geojsonMarkerOptionsHover)
-            })
-            marker.on('mouseout', function(e){
-                map._layers[e.sourceTarget._leaflet_id].setStyle(geojsonMarkerOptions)
-            })
+            marker.on('mouseover', (e) => markerMouseOver(e))
+            marker.on('mouseout', (e) => markerMouseOut(e))
             return marker
         }
     }).addTo(map)
@@ -143,6 +128,32 @@ function loadImage(obj){
     $('.grid-container').append(galleryCont)
 }
 
+function markerMouseOver(e){
+    let idstr = e.sourceTarget.feature.properties.id
+    console.log(idstr)
+    // Adds class active to img and text html objects, so it gets animated
+    document.getElementById(idstr).getElementsByTagName('img')[0].classList.add('active')
+    document.getElementById(idstr).getElementsByClassName('text')[0].classList.add('active')
+    idstr = '#' + idstr
+    // Scroll to set image on top of the page container
+    // if ($(idstr).offset().top > $(window).height() * .8) {
+        $('.page-container').animate({
+            scrollTop: $(idstr).offset().top - 80
+        }, 800)    
+    // }
+    // Modifies leaflet dot style
+    let id = e.sourceTarget._leaflet_id
+    map._layers[id].bringToFront()
+    map._layers[id].setStyle(geojsonMarkerOptionsHover)
+}
+
+function markerMouseOut(e){
+    let idstr = e.sourceTarget.feature.properties.id
+    document.getElementById(idstr).getElementsByTagName('img')[0].classList.remove('active')
+    document.getElementById(idstr).getElementsByClassName('text')[0].classList.remove('active')
+    map._layers[e.sourceTarget._leaflet_id].setStyle(geojsonMarkerOptions)
+}
+
 // 'About' Popup layout and interaction
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
@@ -175,3 +186,6 @@ function closeModal(modal){
     modal.classList.remove('active')
     overlay.classList.remove('active')
 }
+
+
+console.clear()

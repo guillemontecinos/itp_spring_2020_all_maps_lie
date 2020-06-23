@@ -106,6 +106,10 @@ body{
     transform: scale(2);
 }
 
+.grid-container .gallery-item .image img.active{
+  transform: scale(2);
+}
+
 .grid-container .gallery-item .text{
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
@@ -139,6 +143,10 @@ body{
 
 .grid-container .gallery-item:hover .text{
     opacity: 1;
+}
+
+.grid-container .gallery-item .text.active{
+  opacity: 1;
 }
 
 /* 
