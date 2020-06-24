@@ -9,10 +9,6 @@ let accesToken = 'pk.eyJ1IjoiZ3VpbGxlbW9udGVjaW5vcyIsImEiOiJjanhqOXk1ajUyNG9tM3R
 
 L.tileLayer(mapboxUrl, {
     id: 'mapbox.light',
-    // id: 'mapbox.dark',
-    // id: 'mapbox.streets',
-    // id: 'mapbox.outdoors',
-    // id: 'mapbox.satellite',
     attribution : '',
     maxZoom: 20,
     minZoom: 0,
@@ -112,8 +108,6 @@ function loadImage(obj){
     townName.innerText= obj.properties.name + '\n'
     townLocation.innerText = obj.geometry.coordinates[1] + ', ' + obj.geometry.coordinates[0]
 
-    // text.innerText = obj.properties.name + '\n' + obj.geometry.coordinates[1] + ', ' + obj.geometry.coordinates[0]
-
     image.appendChild(imageContent)
     galleryItem.appendChild(image)
 
@@ -162,7 +156,6 @@ const overlay = document.getElementById('overlay')
 openModalButtons.forEach(button => {
     button.addEventListener('click', () => {
         const modal = document.querySelector(button.dataset.modalTarget)
-        // console.log(button.dataset.modalTarget)
         openModal(modal)
     })
 })
@@ -176,7 +169,6 @@ closeModalButtons.forEach(button => {
 
 function openModal(modal){
     if (modal == null) return
-    // console.log('open button clicked')
     modal.classList.add('active')
     overlay.classList.add('active')
 }
@@ -187,5 +179,7 @@ function closeModal(modal){
     overlay.classList.remove('active')
 }
 
-
 console.clear()
+
+// TODO: use this to manage the scrolling function
+// let items = document.getElementsByClassName('gallery-item')
