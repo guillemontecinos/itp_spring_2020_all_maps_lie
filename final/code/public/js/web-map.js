@@ -37,7 +37,7 @@ let geojsonMarkerOptionsHover = {
 // let json
 
 // Dictionary that converts ids from the PobladosChile database into map object ids
-let dict = {} 
+let dict = {}
 
 $.getJSON('./public/json/pobladoschile-aricaiqq-500.geojson', function(data){
     // json = data
@@ -124,17 +124,17 @@ function loadImage(obj){
 
 function markerMouseOver(e){
     let idstr = e.sourceTarget.feature.properties.id
-    console.log(idstr)
     // Adds class active to img and text html objects, so it gets animated
     document.getElementById(idstr).getElementsByTagName('img')[0].classList.add('active')
     document.getElementById(idstr).getElementsByClassName('text')[0].classList.add('active')
     idstr = '#' + idstr
-    // Scroll to set image on top of the page container
-    // if ($(idstr).offset().top > $(window).height() * .8) {
+    // Scroll to set image on top of the page container 
+    if(!($(idstr).offset().top >= 80 && $(idstr).offset().top + $(idstr).height() * .8 <= $(window).height())){
+        let scrollVal = $(idstr).offset().top - 80
         $('.page-container').animate({
-            scrollTop: $(idstr).offset().top - 80
-        }, 800)    
-    // }
+            scrollTop: '+=' + scrollVal
+        }, 1000)
+    }
     // Modifies leaflet dot style
     let id = e.sourceTarget._leaflet_id
     map._layers[id].bringToFront()
@@ -180,6 +180,3 @@ function closeModal(modal){
 }
 
 console.clear()
-
-// TODO: use this to manage the scrolling function
-// let items = document.getElementsByClassName('gallery-item')
