@@ -4,16 +4,13 @@
 // initialize map
 let map = L.map('map').setView([-19.319975, -69.534918], 8);
 
-let mapboxUrl = 'https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.{ext}?access_token={accesToken}'
-let accesToken = 'pk.eyJ1IjoiZ3VpbGxlbW9udGVjaW5vcyIsImEiOiJjanhqOXk1ajUyNG9tM3Rwa2k1NTA5Y3czIn0.empBgsAjclwQah1q9dLjiA'
+const mapboxUrl = 'https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/{z}/{x}/{y}?access_token='
+const accesToken = 'pk.eyJ1IjoiZ3VpbGxlbW9udGVjaW5vcyIsImEiOiJjanhqOXk1ajUyNG9tM3Rwa2k1NTA5Y3czIn0.empBgsAjclwQah1q9dLjiA'
 
-L.tileLayer(mapboxUrl, {
-    id: 'mapbox.light',
+L.tileLayer(mapboxUrl + accesToken, {
     attribution : '',
-    maxZoom: 20,
-    minZoom: 0,
-    ext: 'png',
-    accesToken: accesToken
+    tileSize: 512,
+    zoomOffset: -1
 }).addTo(map)
 
 let geojsonMarkerOptions = {

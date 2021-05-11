@@ -22,3 +22,10 @@ This work was inspired by the Pocket Atlas of Remote islands, by Judith Schalans
 
 The next steps of this project is to include more isolated communities, and explore new interactions that allow move the map following the grid's movement.
 
+# Instagram
+## English
+The Atlas of the Forgotten Chile is an interactive visualization that attempts to reveal and highlight all those small and forgotten communities –most of them peasant and indigenous– that conform the aesthetics of a forgotten Chile. This beta version contains 141 communities from the regions of Arica y Parinacota, and Tarapacá, in the northern Chile.
+
+## Spanish
+El Atlas del Chile olvidado es una visualización interactiva que busca revelar y poner en contexto todas las comunidades olvidadas, principalmente indígenas y campesinas, que conforman la estética de un Chile olvidado por el egocentrismo de la ciudad. Esta versión beta contiene 141 comunidades de las regiones de Arica y Parinacota, y Tarapacá, en el norte de Chile.
+
